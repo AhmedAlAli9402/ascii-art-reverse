@@ -44,6 +44,7 @@ func main() {
 			fmt.Println(err)
 			return
 		}
+	asciiart.FindWord(sourceFile, output)
 		
 	}
 
