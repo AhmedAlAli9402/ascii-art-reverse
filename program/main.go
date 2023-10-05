@@ -18,7 +18,7 @@ func main() {
 		fmt.Println("Input string missing")
 		return
 	}
-	file := os.Args[1] // Read char file & string argument
+	// file := os.Args[1] // Read char file & string argument
 	if len(os.Args) == 2 {
 		if os.Args[1][:10] == "--reverse=" {
 			outputFile = os.Args[1][10:]
@@ -44,6 +44,7 @@ func main() {
 			fmt.Println(err)
 			return
 		}
+		
 	}
 
 }
